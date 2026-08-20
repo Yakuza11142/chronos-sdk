@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -O3 -std=c11
-SRC = src/main.c src/lexer.c src/parser.c src/codegen.c src/disasm.c src/cleanup.c
+SRC = src/main.c src/lexer.c src/parser.c src/codegen.c src/disasm.c src/cleanup.c src/vm.c
 OBJ = $(SRC:.c=.o)
 TARGET = chronos
 
