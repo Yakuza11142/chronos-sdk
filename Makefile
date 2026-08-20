@@ -1,7 +1,6 @@
-# Chronos Native Language Compiler Makefile
 CC = gcc
 CFLAGS = -Wall -Wextra -O3 -std=c11
-SRC = src/main.c src/lexer.c
+SRC = src/main.c src/lexer.c src/parser.c src/codegen.c
 OBJ = $(SRC:.c=.o)
 TARGET = chronos
 
