@@ -1,0 +1,7 @@
+// Chronos Reversible Test Block
+reversible {
+    x += 15;
+    a <=> b;
+    y ^= 255;
+}
+gate Toffoli(a, b, c);
